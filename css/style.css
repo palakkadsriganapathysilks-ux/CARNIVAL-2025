@@ -63,6 +63,10 @@ body {
   text-align: left;
   background-color: #F3F6FF;
 }
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/CARNIVAL1.jpg), no-repeat center center;
+  background-size: cover;
+}
 /* Center the registration button section */
 .register-section {
   display: flex;
@@ -71,7 +75,6 @@ body {
   height: 20vh; /* Adjust to make it higher/lower */
   background: #fef6ff; /* light background */
 }
-
 /* Button Styles */
 .register-btn {
   font-family: monospace;
@@ -9888,12 +9891,6 @@ h6,
   background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
-
-.page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/CARNIVAL1.jpg), no-repeat center center;
-  background-size: cover;
-}
-
 .section-title::before {
   position: absolute;
   content: "";
